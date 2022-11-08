@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ body{
+   background-image: url(https://previews.123rf.com/images/somegirl/somegirl1708/somegirl170800073/84059815-food-seasoning-background-blue-coloured-rustic-wooden-background-lemon-slices-herbs-pepper-sea-salt-.jpg);
+   filter:alpha(opacity=40);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ #header{
+  display:flex;
+  font-size:15px;
+  justify-content:space-evenly;
+ 
+ }
+   img{
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(10px 20px 8px white);
+   }
+ h1 {
   color: white;
+  text-shadow: 6px 6px 6px #000000;
+font-family: 'Bree Serif', serif;
 }
-
-.App-link {
-  color: #61dafb;
+#footer{
+text-align:center
 }
+#banner{
+  display:flex;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+button{
+ color:rgb(72, 0, 139);
+ background-color: hotpink;
+ 
 }
